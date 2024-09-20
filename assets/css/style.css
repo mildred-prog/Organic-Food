@@ -75,6 +75,7 @@ main{
     background-color: green;
     /*Make main element take any surplus to push the footer down*/
     flex: 1 0 auto;
+    margin-top: 40px;
 }
 /*footer*/
 footer{
