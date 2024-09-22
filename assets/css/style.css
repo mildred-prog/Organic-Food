@@ -1,11 +1,12 @@
 /* Goggle fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-*{
+* {
     padding:0;
     margin: 0;
     box-sizing: border-box;
 }
+
 body {
        min-height: 100vh; 
        display:flex;
@@ -16,7 +17,7 @@ body {
    }
 
 /*header*/
-header{
+header {
     background-color: #ffffff;
     padding: 0 1rem ;
     position: fixed;
@@ -28,17 +29,17 @@ header{
     align-items: baseline;
 }
 
-header a{
+header a {
     text-decoration: none;
     color: inherit;
 }
 
-h1{
+h1 {
     font-family: "Oswald" sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #444444;
-}
+} 
 
 #menu {
     font-size: 110%;
@@ -66,20 +67,20 @@ h1{
 }
 
  /* Nav toggle */
-#nav-toggle:checked~nav{
+#nav-toggle:checked~nav {
     display: block;
 }
 
-#nav-toggle{
+#nav-toggle {
     display: none;
 }
 
-.nav-toggle-label{
+.nav-toggle-label {
     font-size: 2rem;
 }
 
 /*main content*/
-main{
+main {
     background-color: green;
     /*Make main element take any surplus to push the footer down*/
     flex: 1 0 auto;
@@ -87,10 +88,19 @@ main{
 }
 
 /*footer*/
-footer{
-    background-color: red;
+#socials {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
 
+#socials i {
+    font-size: 160%;
+    padding: auto;
+    color: #3a3a3a;
+}
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
