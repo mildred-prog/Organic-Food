@@ -81,10 +81,16 @@ h1 {
 
 /*main content*/
 main {
-    background-color: green;
     /*Make main element take any surplus to push the footer down*/
     flex: 1 0 auto;
     margin-top: 40px;
+}
+
+ /* hero section */
+#hero{
+   height: 100dvh;
+   width: 100dvw;
+   background:url(../images/hero-image.jpg) no-repeat center center/cover;
 }
 
 /*footer*/
