@@ -16,6 +16,12 @@ body {
        font-family: "roboto", sans-serif;
    }
 
+h1 {
+    font-family: "Oswald" sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #444444;
+}    
 /*header*/
 header {
     background-color: #ffffff;
@@ -34,12 +40,6 @@ header a {
     color: inherit;
 }
 
-h1 {
-    font-family: "Oswald" sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #444444;
-} 
 
 #menu {
     font-size: 110%;
@@ -91,7 +91,22 @@ main {
    height: 100dvh;
    width: 100dvw;
    background:url("../images/hero-image1.jpg") no-repeat center center/cover;
+   position: relative;
 }
+
+#cover-text{
+    position: absolute;
+    color: #111;
+    transform: translate(0, 2px);
+    top: 228px;
+    padding-top: 40px;
+    min-height: 200px;
+    width: 100%;
+    border-radius: 20px;
+    /* font-family: sans-serif; */
+    /* font-weight: 400px; */
+}
+
 
 /*footer*/
 #socials {
