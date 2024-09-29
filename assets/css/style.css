@@ -92,17 +92,22 @@ main {
    width: 100dvw;
    background:url("../images/hero-image1.jpg") no-repeat center center/cover;
    position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
 }
 
 #cover-text {
-    position: absolute;
+    position: relative;
     color: #111;
     transform: translate(0, 2px);
     top: 228px;
-    padding-top: 40px;
-    min-height: 200px;
+    padding-top: 20px 30px;
+    min-height: 80%;
     width: 100%;
-    border-radius: 20px;
+    border-radius: 10px;
+    text-align: left;
     
 }
 
@@ -239,6 +244,15 @@ main {
 /* Media query: tablets and larger (320px and up) */
 @media screen and (min-width: 320px) {
 
+    #cover-text {
+        padding: 10px 20px;
+        font-size: 1.2rem;
+    }
+
+    #cover-text h2 {
+        font-size: 1.3rem;
+    }
+
     #organic {
       width: 100%;
       overflow: hidden;
@@ -296,10 +310,13 @@ main {
         /* Push main content down to accommodate larger header */
         margin-top: 75px;
     }
+    #cover-text {
+        width: 90%; /* Reduce width on smaller screens */
+        font-size: 1.5rem;
+    }
 
     #cover-text h2 {
-        font-size: 1.5rem; /* Reduce font size on smaller screens */
-        max-width: 90%; /* Make the text block a bit wider */
+        font-size: 1.5rem;
     }
 
     .organic-heading {
