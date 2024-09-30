@@ -11,7 +11,6 @@ body {
        min-height: 100vh; 
        display:flex;
         flex-direction: column;
-       /*Generic project styles*/
        color: #3a3a3a;
        font-family: "roboto", sans-serif;
    }
@@ -200,6 +199,7 @@ main {
     color: #333;
     line-height: 1.6;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 #benefits {
@@ -330,6 +330,10 @@ main {
     margin-bottom: 15px;
 }
 
+.contact-form{
+    max-width: 100%;
+}
+
 .info-box {
     background-color: #ffffff;
     padding: 15px;
@@ -376,6 +380,102 @@ button[type="submit"]:hover {
     background-color: #45a049;
 }
 
+.thanks-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.thanks-container h1 {
+    color: #2d8659;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+}
+
+/* Styling the paragraph */
+.thanks-container p {
+    color: #333;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+/* Button styling */
+.thanks-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    display: inline-block;
+    box-shadow: 0 4px 6px #1412121a;
+    transition: background-color 0.3s ease;
+}
+
+.thanks-button:hover {
+    background-color: #45a049;
+}
+
+.error-button {
+    background-color: #f70606;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    display: inline-block;
+    box-shadow: 0 4px 6px #7b6b6b1a;
+    transition: background-color 0.3s ease;
+}
+
+.error-button:hover {
+    background-color: #a10101;
+}
+        /* Error header styling */
+  .error-header {
+            font-size: 8rem;
+            color: #2d8659; /* Earthy green */
+            margin-bottom: 20px;
+        }
+       
+ .error-message {
+            font-size: 1.5rem;
+            color: #fff;
+            margin-bottom: 30px;
+            text-align: center;
+            background-color: #1a171780;
+            padding: 15px 20px;
+            border-radius: 10px;
+        }
+
+.error-button {
+            background-color: #4CAF50; /* Green for the button */
+            color: white;
+            padding: 15px 30px;
+            border-radius: 8px;
+            font-size: 1.2rem;
+            text-decoration: none;
+            transition: background-color 0.3s ease, transform 0.2s;
+        }
+
+.map-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+    height: 400px;
+}
+
+#map-image {
+    min-width: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    height: 100%;
+}
 
 /*footer*/
 #socials {
@@ -571,4 +671,19 @@ button[type="submit"]:hover {
     .product-grid {
         grid-template-columns: repeat(3, 1fr); /* 2 columns for tablets */
     }
+
+        /* Container styling */
+        .thanks-container {
+            background-color: rgba(255, 255, 255, 0.9); /* Translucent background */
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 600px;
+            width: 100%;
+            margin: 20px;
+        }
+
+        
+
 }
