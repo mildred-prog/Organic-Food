@@ -97,6 +97,10 @@ main {
    /* text-align: center; */
 }
 
+.container{
+    display: none;
+}
+
 #cover-text {
     position: relative;
     color: #111;
@@ -127,7 +131,7 @@ main {
     bottom: 30px; /* Align at the bottom of the hero section */
     right: 20px; /* Align to the right */
     font-size: 0.8rem; /* Smaller font size for credit */
-    color: rgba(255, 255, 255, 0.7); /* Semi-transparent white */
+    color: #ffffff; /* Semi-transparent white */
 }
 
 #page-text {
@@ -292,11 +296,84 @@ main {
 
 /* Hover effect for product name and price */
 .product-item:hover .product-name {
-    color: #FF9800; /* Change color of product name on hover */
+    color: #484239; /* Change color of product name on hover */
 }
 
 .product-item:hover .price {
-    color: #FF5722; /* Change color of price on hover */
+    color: #ebe2df; /* Change color of price on hover */
+}
+
+#contact-us {
+    padding: 50px 20px;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.contact-info, .contact-form {
+    flex: 1 1 300px;
+    background-color: #e8f5e9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #0000001a;
+}
+
+.contact-info h2, .contact-form h3 {
+    text-align: center;
+    color: #2e7d32;
+}
+
+.contact-info p, .contact-form p, .form-group {
+    margin-bottom: 15px;
+}
+
+.info-box {
+    background-color: #ffffff;
+    padding: 15px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input, .form-group textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+button[type="submit"] {
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
 }
 
 
@@ -317,11 +394,6 @@ main {
 
 /* Media query: tablets and larger (320px and up) */
 @media screen and (min-width: 320px) {
-
-    /* #cover-text { */
-        /* padding: 10px 20px; */
-        /* font-size: 1.2rem; */
-    
 
     #cover-text h2 {
         font-size: 1.3rem;
@@ -401,8 +473,29 @@ main {
         margin-top: 75px;
     }
 
-    #cover-text h2 {
-        font-size: 1.5rem;
+    .container{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        padding: 20px;
+        background: #d1f5d3a3;
+        border-radius: 12px;
+        
+    }
+
+    .container h1 {
+        font-size: 2.5rem;
+        color: #2e7d32; /* Green to signify organic */
+        margin-bottom: 10px;
+    }
+    
+    .container p {
+        font-size: 1.2rem;
+        color: #555;
+    }
+
+    #cover-text {
+        display: none;
     }
 
     .organic-heading {
@@ -448,12 +541,6 @@ main {
 @media screen and (min-width: 992px) {
     #menu > li:hover {
         border-bottom: 1px solid #190303;
-    }
-
-    #cover-text{
-    left: 0;
-    position: absolute;
-    width: 50%;
     }
 
     #organic {
