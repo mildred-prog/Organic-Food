@@ -87,7 +87,7 @@ main {
 #hero {
    height: 100dvh;
    width: 100dvw;
-   background:url("../images/hero-image1.webp") no-repeat center center/cover;
+   background:url("../images/hero-cover.webp") no-repeat center center/cover;
    position: relative;
    display: flex;
    justify-content: center;
@@ -235,7 +235,7 @@ main {
     padding: 40px 20px;
     background-color: #f9f9f9;
     text-align: center;
-    scroll-margin-top: 40px;
+    scroll-margin-top: 100px;
 }
 
 #organic-products h2 {
@@ -319,7 +319,7 @@ main {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px #0000001a;
-    scroll-margin-top: 100px;
+    scroll-margin-top: 120px;
 }
 
 .contact-info h2, .contact-form h3 {
@@ -651,7 +651,7 @@ button[type="submit"]:hover {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        height: 400px;
+        height: 500px;
     }
     
     .organic-image { 
@@ -662,7 +662,7 @@ button[type="submit"]:hover {
         border: 1px solid  #4CAF50;;
         border-radius: 12px;
         max-width: 270px;
-        max-height: 400px;
+        max-height: 500px;
     }
 
     .organic-image > img {

@@ -2,7 +2,7 @@
 Organic Food
 ##
 Our Organic Food Website is a single page website with three sections designed to enlighten users on healthy eating habits,it also educates users about the importance and benefits of organic foods whilst aiming at providing users with seamless experience in exploring and purchasing high quality organic food.The site features a home page with information on organic foods, a thank-you page for contact form submissions, and a custom 404 error page to guide users back if they encounter broken links.
-![Organic Food]()
+![Organic Food](assets/images/page.png)
 
 ###
 Site Goals
