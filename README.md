@@ -17,12 +17,14 @@ Target Audience
 
 ####
 Features
-Existing Features
--Home Page:This page consists of the introduction to organic food and the definition aswell as the various categories of organic foods attaching images,examples,benefits and importance.
+*Home Page*:This page consists of the introduction to organic food and the definition aswell as the various categories of organic foods attaching images,examples,benefits and importance.
 -A contact form allowing users to submit inquiries with required fields for name, email, subject, and message.
 -Footer Links: Links to navigate to important sections of the website like the home page and contact information.
--Thank-You Page:A confirmation page displayed after the user submits the contact form, thanking them for their message.
+-Thank-You Page:A confirmation page displayed after the user submits the contact form, thanking them for their message. (assets/images/thank-you.png)
 404 Error Page:A custom error page with a friendly message and a "Go Back to Home" button for users who land on non-existent pages.
+
+####
+Existing features
 
 Future Features
 Product Filtering: A filter or search option for users to easily find specific products.
