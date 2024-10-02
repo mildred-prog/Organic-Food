@@ -643,7 +643,7 @@ button[type="submit"]:hover {
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    #menu > li:hover {
+    #menu > li a:hover {
         border-bottom: 1px solid #190303;
     }
 
