@@ -5,51 +5,50 @@ Our Organic Food Website is a single page website with three sections designed t
 ![Organic Food](assets/images/page.png)
 
 ### Site Goals                                            
--To inform users about the benefits of organic food and provide available products.                                         
--To provide an easy-to-navigate user experience with a clear contact option.                                               
--To offer a professional and responsive interface for desktop and mobile users.                                                                                                              
--To ensure users can find relevant pages quickly using footer links.
+- To inform users about the benefits of organic food and provide available products.                                         
+- To provide an easy-to-navigate user experience with a clear contact option.                                               
+- To offer a professional and responsive interface for desktop and mobile users.                                                                                                              
+- To ensure users can find relevant pages quickly using footer links.
 
 ### Target Audience                                        
--Health-conscious individuals and customers interested in organic food.                                                     
--Visitors seeking to inquire about what organic products are,its health benefits and where to source organic products.                                           
+- Health-conscious individuals and customers interested in organic food.                                                     
+- Visitors seeking to inquire about what organic products are,its health benefits and where to source organic products.                                           
 
 ### User Goals
 
 #### First time Visitors Goals:        
--As a visitor, I want to learn about the benefits of organic food so I can make better choices for my health.                                               
--I want to view a selection of organic products offered by the website.                                            
--I want to contact the website owners for further inquiries.      
--I want to view the business location on a map (iframe).                           
-2.Returning Visitor Goals:                           
--I want to re-access the product section to browse organic items.                                       
--I want to submit another inquiry using the contact form.                                      
-3.Error Handling Goals:                       
+- As a visitor, I want to learn about the benefits of organic food so I can make better choices for my health.                                               
+- I want to view a selection of organic products offered by the website.                                            
+- I want to contact the website owners for further inquiries.      
+- I want to view the business location on a map (iframe).                           
+#### Returning Visitor Goals:                           
+- I want to re-access the product section to browse organic items.                                       
+- I want to submit another inquiry using the contact form.                                      
+#### Error Handling Goals:                       
 As a visitor who navigates to a broken or incorrect URL, I want to be redirected to a helpful 404 page with a link back to the home page.
 
 ### Features                                            
-*Home Page*:This page consists of the introduction to organic food and the definition aswell as the various categories of organic foods attaching images,examples,benefits and importance.
+- Home Page*:This page consists of the introduction to organic food and the definition aswell as the various categories of organic foods attaching images, examples, benefits and importance.
  ![Home section](assets/images/home-page.png)                                                                                                                                                                                                      
--A contact form allowing users to submit inquiries with required fields for name, email, subject, and message.![Contact](assets/images/contact.png)                                                          
--Iframe Section: Displays the location of the business in Nottingham, England, using a Google Maps iframe embedded on the home page.  
-![iframe](assets/images/google-map.png)
--google map:                                           
--Social media Icons: footer section includes Icons to the relevant social media sites for Organic food Website. ![Icons](assets/images/link-footer.png)                                                        
--Thank-You Page:A confirmation page displayed after the user submits the contact form, thanking them for their message. ![Thank you](assets/images/thank-you.png)                                                                   
--404 Error Page:A custom error page with a friendly message and a "Go Back to Home" button for users who land on non-existent pages.![Error page](assets/images/404.png)
+- A contact form allowing users to submit inquiries with required fields for name, email, subject, and message.![Contact](assets/images/contact.png)                                                          
+- Iframe Section: Displays the location of the business in Nottingham, England, using a Google Maps iframe embedded on the home page.  
+![iframe](assets/images/google-map.png)                                      
+- Social media Icons: footer section includes Icons to the relevant social media sites for Organic food Website. ![Icons](assets/images/footer-icon.png)                                           
+- Thank-You Page:A confirmation page displayed after the user submits the contact form, thanking them for their message. ![Thank you](assets/images/thank-you.png)                                                                   
+- 404 Error Page:A custom error page with a friendly message and a "Go Back to Home" button for users who land on non-existent pages.![Error page](assets/images/404.png)
 
 #### Future Features                                  
--Testimonials: A section for customer testimonials to build trust and engagement.                                          
--Newsletter Subscription: Allow users to sign up for email updates on organic food products.                         
+- Testimonials: A section for customer testimonials to build trust and engagement.                                          
+- Newsletter Subscription: Allow users to sign up for email updates on organic food products.                         
 
 
 #### Design:
 Color Scheme:     
--The website uses a palette of natural, earthy tones like shades of green (#2d8659) (#4CAF50), black, and white, symbolizing health and nature.   
--Typography
+- The website uses a palette of natural, earthy tones like shades of green (#2d8659) (#4CAF50), black, and white, symbolizing health and nature.   
+- Typography
 Headings: "roboto", sans-serif – to evoke a rustic, organic feel.
 Body Text: 'roboto', sans-serif – for clean, modern readability.    
--Imagery
+- Imagery
 Images of fresh organic food and natural landscapes are used throughout the site to promote a clean and healthy lifestyle.
 
 Wireframes were created to plan the layout and structure of the website before development.
@@ -66,9 +65,35 @@ Git: For version control.
 GitHub Pages: For hosting the live website.
 ### Manual Testing
 
- |Feature | Action | Expected Result | Actual Result| Pass/Fail
+| Feature | Action | Expected Result | Actual Result| Pass/Fail
 | ------------- | ------------- | ------------- | ------------- |  ------------- |
-| Product | Click on the product link | Navigate to the position on the page where the product is featured | Navigated to the position on the page where the product is featured| Pass |
+| Home link| Click on home link | Navigate to the position on the page where the home is featured | Navigated to the position on the page where the home is featured | Pass |
+![Home navigation](assets/images/nav-home.png)
+
+| Feature | Action | Expected Result | Actual Result| Pass/Fail
+| ------------- | ------------- | ------------- | ------------- |  ------------- |
+| Product link | Click on the product link | Navigate to the position on the page where the product section is featured | Navigated to the position on the page where the product section is featured | Pass |
+![Product navigation](assets/images/nav-product.png)
+
+| Feature | Action | Expected Result | Actual Result| Pass/Fail
+| ------------- | ------------- | ------------- | ------------- |  ------------- |
+| Contact link | Click on the contact link | Navigate to the position on the page where the contact section is featured | Navigated to the position on the page where the contact section is featured | Pass |
+![Contact navigation](assets/images/nav-contact.png)
+
+| Feature | Action | Expected Result | Actual Result| Pass/Fail
+| ------------- | ------------- | ------------- | ------------- |  ------------- |
+| thank-you | Click on the send message button | Redirect user to a thank you page | Redirected user to a thank you page | Pass |
+![Send message](assets/images/message.png)
+
+| Feature | Action | Expected Result | Actual Result| Pass/Fail
+| ------------- | ------------- | ------------- | ------------- |  ------------- |
+| Go Back to Home | To Redirect user back to home page | Redirect user back to home page | Redirected user back to home | Pass |
+![Back features](assets/images/back.home.png)
+
+| Feature | Action | Expected Result | Actual Result| Pass/Fail
+| ------------- | ------------- | ------------- | ------------- |  ------------- |
+| Footer links | Click on the footer icon | Navigate to the respective social media website | Navigated to the social media website | Pass |
+![footer link](assets/images/footer-icon.png)
 
 #### Home Page
 
@@ -115,18 +140,9 @@ images, text)
 
 
 Credits
-Content
-Media
+
 Acknowledgements
 
 
-
-Important readme sections
-● List of features
-● UX/UI
-● Testing
-● Deployment
-● Citation of ALL sources(code, 
-images, text)
-● Future features 
-● Known bug
+bug found
+-fixed the bug found in the product section coverong the line ahead
