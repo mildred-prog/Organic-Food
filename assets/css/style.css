@@ -10,7 +10,7 @@
 body {
        min-height: 100vh; 
        display:flex;
-        flex-direction: column;
+       flex-direction: column;
        color: #3a3a3a;
        font-family: "roboto", sans-serif;
    }
@@ -677,7 +677,7 @@ button[type="submit"]:hover {
     }
 
         /* Container styling */
-        .thanks-container {
+    .thanks-container {
             background-color: rgba(255, 255, 255, 0.9); /* Translucent background */
             padding: 40px;
             border-radius: 15px;
