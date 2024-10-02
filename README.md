@@ -32,7 +32,7 @@ As a visitor who navigates to a broken or incorrect URL, I want to be redirected
  ![Home section](assets/images/home-page.png)                                                                                                                                                                                                      
 -A contact form allowing users to submit inquiries with required fields for name, email, subject, and message.![Contact](assets/images/contact.png)                                                          
 -Iframe Section: Displays the location of the business in Nottingham, England, using a Google Maps iframe embedded on the home page.  
-![iframe](assets/images/goggle-map.png)
+![iframe](assets/images/google-map.png)
 -google map:                                           
 -Social media Icons: footer section includes Icons to the relevant social media sites for Organic food Website. ![Icons](assets/images/link-footer.png)                                                        
 -Thank-You Page:A confirmation page displayed after the user submits the contact form, thanking them for their message. ![Thank you](assets/images/thank-you.png)                                                                   
