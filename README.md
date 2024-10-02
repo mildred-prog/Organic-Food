@@ -65,9 +65,10 @@ Font Awesome: For icons used in the footer and the burger menu.
 Git: For version control.                   
 GitHub Pages: For hosting the live website.
 ### Manual Testing
-    | Feature | Action | Expected Result | Actual Result| Pass/Fail
-    | ------------- | ------------- | ------------- | ------------- |  ------------- |
-    | Product | Click on the product link | Navigate to the position on the page where the product is featured | Navigated to the position on the page where the product is featured | Pass |
+
+ |Feature | Action | Expected Result | Actual Result| Pass/Fail
+| ------------- | ------------- | ------------- | ------------- |  ------------- |
+| Product | Click on the product link | Navigate to the position on the page where the product is featured | Navigated to the position on the page where the product is featured| Pass |
 
 #### Home Page
 
