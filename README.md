@@ -18,12 +18,12 @@ Our Organic Food Website is a single page website with three sections designed t
 
 #### First time Visitors Goals:        
 - As a visitor, I want to learn about the benefits of organic food so I can make better choices for my health.                                               
-- I want to view a selection of organic products offered by the website.                                            
-- I want to contact the website owners for further inquiries.      
-- I want to view the business location on a map (iframe).                           
+- As a visitor, I want to view a selection of organic products offered by the website to enable easy purchase of the available product.                                      
+- As a visitor, I want to contact the website owners for further inquiries on organic food     
+- As a visitor, I want to view the business location on a map (iframe) for easy guidiance to the office address.                         
 #### Returning Visitor Goals:                           
 - I want to re-access the product section to browse organic items.                                       
-- I want to submit another inquiry using the contact form.                                      
+- As a returning visitor,I want to submit another inquiry using the contact form.                                      
 #### Error Handling Goals:                       
 As a visitor who navigates to a broken or incorrect URL, I want to be redirected to a helpful 404 page with a link back to the home page.
 
@@ -97,11 +97,11 @@ GitHub Pages: For hosting the live website.
 
 #### Home Page
 
-Verified that the product section and contact form are visible and functioning correctly on all screen sizes.
-Ensured all footer links navigate to the correct sections.
+- Verified that the product section and contact form are visible and functioning correctly on all screen sizes.
+- Ensured all footer links navigate to the correct sections.
 
 #### Contact Form
-Verified that the form fields are working as expected (e.g., required fields, valid email input).
+Verified that the form fields are working as expected (name, email, subject, a message valid).
 After form submission, users are redirected to the Thank-You page.
 
 #### 404 Error Page
@@ -119,7 +119,7 @@ CSS: Passed validation with the W3C CSS Validator.![Css] https://jigsaw.w3.org/c
 The website was tested on different browsers(chrome, firefox and safari) to ensure compactibility
 
 #### Accessibility
-The website was tested using light house to ensure accessibility ,it achieved a good score for Accessibility, Best practises and SEO. 
+The website was tested using light house to ensure accessibility ,it achieved a good score for Accessibility, Best practises and SEO. ![light house](assets/images/light-house.png)
 
 #### Performance
 The image was optimized using TinyPNG and light house reports were run to check the load time.       
@@ -129,20 +129,43 @@ All internal and external links were tested to ensure they direct to the correct
 ### Deployment
 The site was deployed to GitHub pages.
  The steps to deploy are as follows:      
--In the GitHub repository, navigate to the Settings tab     
--From the source section drop-down menu, select the Master Branch      
+- In the GitHub repository, navigate to the Settings tab     
+- From the source section drop-down menu, select the Master Branch      
 Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.              
 The live link can be found here - https://mildred-prog.github.io/Organic-Food/
 
 
-#### Citation of ALL sources(code, 
-images, text)
+#### Bugs
 
+|    Bug   |   Fix   |
+| ------------- | ------------- |
+| The link in the nav section when clicked had an overline.  | Removed the overline attribute |
+| The last icon on the social media links did not redirect properly | Changed the links on the html to to target the link properly |
+| Header being ignored  | Gave header size dimensions  |
+| Google Maps showing causing trouble with validator  | Take out transferred info from link to only necessary code  |
+| Home page link stays highlighted when visiting another page | Remove active attribute on non-active pages |
 
-Credits
+# Credits
 
-Acknowledgements
+## Media
 
+In order of appearance
 
-bug found
--fixed the bug found in the product section coverong the line ahead
+- Hero image on landing page - https://themewagon.github.io/foody2/index.html
+- Fruits in a bowl -https://www.pexels.com/photo/a-bowl-of-fresh-delicious-tropical-fruits-4736765/
+- Image of vegetable chopped on a board - https://www.pexels.com/photo/photo-of-sliced-vegetables-on-wooden-chopping-board-3872434
+- Cheese and milk image - https://www.pexels.com/search/cheese%20and%20milk/
+- Images of the organic food products - https://themewagon.github.io/foody2/index.html
+
+## Code
+
+- The website - Done in co-ordination with the 'Love Running' project steps
+- Contact section and iframe doesn"t fully display -https://chatgpt.com/c/66fa9cb8-1e6c-8008-ae28-3204c7ce701a
+- Footer - https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/ - helped to fix bug
+
+## Acknowledgement
+I would like to take the opportunity to thank:
+- Code Institute: For their thorough curriculum, valuable resources, and excellent support, which have been integral to the development of this website.
+- Vernell Clark for his continuous guidance, insightful feedback, and unwavering support throughout the project which helped refine my approach and ensured the project meet a good standard.(https://github.com/VCGithubCode)
+- My mentor Harry Dhillion for being accessibile.
+- My Husband Samuel that has been an amazing support and pillar for my new found career.
