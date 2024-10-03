@@ -2,7 +2,7 @@
 
 ##
 Our Organic Food Website is a single page website with three sections designed to enlighten users on healthy eating habits,it also educates users about the importance and benefits of organic foods whilst aiming at providing users with seamless experience in exploring and purchasing high quality organic food.The site features a home page with information on organic foods, a thank-you page for contact form submissions, and a custom 404 error page to guide users back if they encounter broken links.
-![Organic Food](assets/images/page.png)
+![Organic Food](assets/images/fullscreen.png)
 
 ### Site Goals                                            
 - To inform users about the benefits of organic food and provide available products.                                         
@@ -43,7 +43,7 @@ As a visitor who navigates to a broken or incorrect URL, I want to be redirected
 
 #### Design:
 Color Scheme:     
-- The website uses a palette of natural, earthy tones like shades of green (#2d8659) (#4CAF50), black, and white, symbolizing health and nature.   
+- The website uses a palette of natural, earthy tones like shades of green (#2d8659) (#4CAF50) (#064e0a), black, and white, symbolizing health and nature.   
 - Typography
 Headings: "roboto", sans-serif – to evoke a rustic, organic feel.
 Body Text: 'roboto', sans-serif – for clean, modern readability.    
@@ -119,7 +119,7 @@ CSS: Passed validation with the W3C CSS Validator.
 The website was tested on different browsers(chrome, firefox and safari) to ensure compactibility
 
 #### Accessibility
-The website was tested using light house to ensure accessibility ,it achieved a good score for Accessibility, Best practises and SEO. ![light house](assets/images/light-house.png)
+The website was tested using light house to ensure accessibility ,it achieved a good score for Accessibility, Best practises and SEO.![light house](<assets/images/light house.png>)
 
 #### Performance
 The image was optimized using TinyPNG and light house reports were run to check the load time.       
