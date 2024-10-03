@@ -38,6 +38,12 @@ header a {
     color: inherit;
 }
 
+#logo {
+    font-size: 1.6em;
+    font-family: sans-serif;
+    line-height: 50px;
+}
+
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -129,6 +135,7 @@ main {
     right: 20px; /* Align to the right */
     font-size: 0.8rem; /* Smaller font size for credit */
     color: #ffffff; /* Semi-transparent white */
+    background: #00000008;
 }
 
 #page-text {
@@ -139,9 +146,13 @@ main {
     max-width: 100%; /* Limit the width for large screens */
 }
 
+.contrast {
+    background: #00000005;
+    color: #4CAF50;
+}
+
 .organic-heading {
     font-size: 2rem; /* Main heading size */
-    color: #4CAF50; 
     margin-bottom: 20px;
 }
 
@@ -160,7 +171,6 @@ main {
 
 #organic {
     height: 100%;
-
 }
 
 .organic-image { 
@@ -177,7 +187,6 @@ main {
 
 .organic-image h3 {
     font-size: 1.5rem;
-    color: #4CAF50;
     text-align: center;
     margin-bottom: 10px;
 }
@@ -200,7 +209,6 @@ main {
 
 #benefits {
     padding: 40px 20px;
-    background-color: #f4f4f4; /* Light background for contrast */
     max-width: 100%; /* Limit the width on large screens */
     margin: 30px auto; /* Center the section */
     border-radius: 8px; /* Rounded corners */
@@ -209,7 +217,6 @@ main {
 
 #benefits h3 {
     font-size: 2rem;
-    color: #4CAF50;
     text-align: center;
     margin-bottom: 10px;
 }
@@ -241,7 +248,6 @@ main {
 #organic-products h2 {
     font-size: 2rem;
     margin-bottom: 30px;
-    color: #4CAF50; /* Organic green */
 }
 
 /* Grid layout for the products */
@@ -289,18 +295,8 @@ main {
 
 .price {
     font-size: 1.1rem;
-    color: #4CAF50;
     font-weight: bold;
     transition: color 0.3s ease;
-}
-
-/* Hover effect for product name and price */
-.product-item:hover .product-name {
-    color: #484239; /* Change color of product name on hover */
-}
-
-.product-item:hover .price {
-    color: #ebe2df; /* Change color of price on hover */
 }
 
 #contact-us {
@@ -369,21 +365,27 @@ form {
 
 button[type="submit"] {
     padding: 12px;
-    background-color: #4CAF50;
-    color: white;
+    background-color: #25c22a;
+    color: #000000;
     border: none;
-    border-radius: 5px;
+    text-shadow: 1px 1px 2px #ffffff;
     cursor: pointer;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 button[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: #02a00a;
+}
+
+.main-thanks {
+    display: grid;
+    align-content: center;
 }
 
 .thanks-container {
     margin: 0 auto;
     text-align: center;
+    padding: 0 20px;
 }
 
 .thanks-container h1 {
@@ -401,15 +403,13 @@ button[type="submit"]:hover {
 
 /* Button styling */
 .thanks-button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 25px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 1rem;
-    display: inline-block;
-    box-shadow: 0 4px 6px #1412121a;
-    transition: background-color 0.3s ease;
+    padding: 12px;
+    background-color: #25c22a;
+    color: #000000;
+    border: none;
+    text-shadow: 1px 1px 2px #ffffff;
+    cursor: pointer;
+    font-size: 1.3rem;
 }
 
 .thanks-button:hover {
@@ -423,7 +423,7 @@ button[type="submit"]:hover {
 
 #error-button {
     background-color: #f70606;
-    color: white;
+    color: #000000;
     padding: 12px 25px;
     border-radius: 5px;
     text-decoration: none;
@@ -452,16 +452,6 @@ button[type="submit"]:hover {
     background-color: #1a171780;
     padding: 15px 20px;
     border-radius: 10px;
-}
-
-#error-button {
-    background-color: #4CAF50; /* Green for the button */
-    color: white;
-    padding: 15px 30px;
-    border-radius: 8px;
-    font-size: 1.2rem;
-    text-decoration: none;
-    transition: background-color 0.3s ease, transform 0.2s;
 }
 
 .map-container{
@@ -494,6 +484,11 @@ button[type="submit"]:hover {
     font-size: 160%;
     padding: 20px;
     color: #3a3a3a;
+}
+
+.error-body {
+    display: grid;
+    align-items: center;
 }
 
 /* Media query: tablets and larger (320px and up) */
@@ -664,13 +659,6 @@ button[type="submit"]:hover {
         max-width: 270px;
         max-height: 500px;
     }
-
-    .organic-image > img {
-        width: 100%;
-        aspect-ratio: 1;
-        max-width: 270px;
-        max-height: 270px;
-    }
     
     .product-grid {
         grid-template-columns: repeat(3, 1fr); /* 2 columns for tablets */
@@ -689,13 +677,14 @@ button[type="submit"]:hover {
         
     .error-container {
         margin: 0 auto;
-        text-align: center;
-        background-color: rgba(255, 255, 255, 0.9); /* Translucent background */
+        background-color: rgba(255, 255, 255, 0.9);
         padding: 40px;
         border-radius: 15px;
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
         text-align: center;
         max-width: 600px;
         width: 100%;
+        place-self: center;
+        
     }
 }
