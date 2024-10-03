@@ -6,15 +6,15 @@ Our Organic Food Website is a single page website with three sections designed t
 
 ### Site Goals                                            
 - To inform users about the benefits of organic food and provide available products.                                         
-- To provide an easy-to-navigate user experience with a clear contact option.                                               
-- To offer a professional and responsive interface for desktop and mobile users.                                                                                                              
+- To provide an easy-to-navigate user experience with a clear contact option.                                           
+- To offer a professional and responsive interface for desktop and mobile users.                                            
 - To ensure users can find relevant pages quickly using footer links.
 
 ### Target Audience                                        
 - Health-conscious individuals and customers interested in organic food.                                                     
-- Visitors seeking to inquire about what organic products are,its health benefits and where to source organic products.                                           
+- Visitors seeking to inquire about what organic products are,its health benefits and where to source organic products.  
 
-### User Goals
+## User Goals
 
 #### First time Visitors Goals:        
 - As a visitor, I want to learn about the benefits of organic food so I can make better choices for my health.                                               
@@ -27,7 +27,7 @@ Our Organic Food Website is a single page website with three sections designed t
 #### Error Handling Goals:                       
 As a visitor who navigates to a broken or incorrect URL, I want to be redirected to a helpful 404 page with a link back to the home page.
 
-### Features                                            
+## Features                                            
 - Home Page*:This page consists of the introduction to organic food and the definition aswell as the various categories of organic foods attaching images, examples, benefits and importance.
  ![Home section](assets/images/home-page.png)                                                                                                                                                                                                      
 - A contact form allowing users to submit inquiries with required fields for name, email, subject, and message.![Contact](assets/images/contact.png)                                                          
@@ -41,7 +41,6 @@ As a visitor who navigates to a broken or incorrect URL, I want to be redirected
 - Testimonials: A section for customer testimonials to build trust and engagement.                                          
 - Newsletter Subscription: Allow users to sign up for email updates on organic food products.                         
 
-
 #### Design:
 Color Scheme:     
 - The website uses a palette of natural, earthy tones like shades of green (#2d8659) (#4CAF50), black, and white, symbolizing health and nature.   
@@ -53,8 +52,8 @@ Images of fresh organic food and natural landscapes are used throughout the site
 
 - A wireframe was created to plan the layout and structure of the website before development.![wire frame](assets/images/wire-frame.png)
 
-Technologies Used:                                   
-Languages                                           
+#### Technologies:                                   
+Languages:                                           
 -HTML5: Used for the structure of the website.       
 -CSS3: Used for styling and making the website responsive across different devices.               
 
@@ -63,7 +62,8 @@ Google Fonts: For typography.
 Font Awesome: For icons used in the footer and the burger menu.   
 Git: For version control.                   
 GitHub Pages: For hosting the live website.
-### Manual Testing
+
+### Testing
 
 | Feature | Action | Expected Result | Actual Result| Pass/Fail
 | ------------- | ------------- | ------------- | ------------- |  ------------- |
@@ -112,9 +112,9 @@ The website was tested on multiple devices (desktop, tablet, mobile) using Chrom
 
 #### Validator Testing:                                   
 HTML: Passed validation with the W3C HTML Validator.                                         
- ![W3C-Validator]https://validator.w3.org/nu/#textarea    
-![html-Screenshot](assets/images/html-validator.png)   
-CSS: Passed validation with the W3C CSS Validator.![Css] https://jigsaw.w3.org/css-validator/validator                                           ![css-screenshot](assets/images/css.validator.png)   
+ ![W3C-Validator]https://validator.w3.org/nu/#textarea     
+CSS: Passed validation with the W3C CSS Validator.
+![Css] https://jigsaw.w3.org/css-validator/validator                                    
 #### Browser Compactibility
 The website was tested on different browsers(chrome, firefox and safari) to ensure compactibility
 
@@ -126,7 +126,7 @@ The image was optimized using TinyPNG and light house reports were run to check 
 #### Links Testing
 All internal and external links were tested to ensure they direct to the correct page and open in new tabs.
 
-### Clone Project
+#### Clone 
 To run website locally,
 - Clone the repository
  ![clone](assets/images/clone.png)
@@ -141,40 +141,35 @@ The site was deployed to GitHub pages.
 Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.              
 The live link can be found here - https://mildred-prog.github.io/Organic-Food/
 
-
-
-
 #### Bugs
 
 |    Bug   |   Fix   |
 | ------------- | ------------- |
 | The link in the nav section when clicked had an overline.  | Removed the overline attribute |
-| The last icon on the social media links did not redirect properly | Changed the links on the html to to target the link properly |
+| The last icon on the social media links did not redirect properly | Changed the links on the html to target the link properly |
 | Header being ignored  | Gave header size dimensions  |
 | Google Maps showing causing trouble with validator  | Take out transferred info from link to only necessary code  |
 | Home page link stays highlighted when visiting another page | Remove active attribute on non-active pages |
 
-## Credits
+### Credits
 
-## Media
+#### Media
 
 In order of appearance
 
 - Hero image on landing page - https://themewagon.github.io/foody2/index.html
-- Fruits in a bowl -https://www.pexels.com/photo/a-bowl-of-fresh-delicious-tropical-fruits-4736765/
-- Image of vegetable chopped on a board - https://www.pexels.com/photo/photo-of-sliced-vegetables-on-wooden-chopping-board-3872434
-- Cheese and milk image - https://www.pexels.com/search/cheese%20and%20milk/
-- Images of the organic food products - https://themewagon.github.io/foody2/index.html
-
-## Code
+- Fruits image -https://www.pexels.com/photo/grape-fruits-708777/
+- Vegetable - https://www.pexels.com/photo/flat-lay-photography-of-variety-of-vegetables-1435904/
+- Milk image -https://www.pexels.com/photo/time-lapse-photography-of-strawberry-falling-on-milk-2064356/
+- Images of the organic food products - https://themewagon.github.io/foody2/product.html
+#### Code
 
 - The website - Done in co-ordination with the 'Love Running' project steps
 - Contact section and iframe doesn"t fully display -https://chatgpt.com/c/66fa9cb8-1e6c-8008-ae28-3204c7ce701a
 - Footer - https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/ - helped to fix bug
 
-## Acknowledgement
+### Acknowledgement
 I would like to take the opportunity to thank:
 - Code Institute: For their thorough curriculum, valuable resources, and excellent support, which have been integral to the development of this website.
 - Vernell Clark for his continuous guidance, insightful feedback, and unwavering support throughout the project which helped refine my approach and ensured the project meet a good standard.(https://github.com/VCGithubCode)
-- My mentor Harry Dhillion for being accessibile.
 - My Husband Samuel that has been an amazing support and pillar for my new found career.
