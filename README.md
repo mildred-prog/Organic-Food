@@ -51,7 +51,7 @@ Body Text: 'roboto', sans-serif – for clean, modern readability.
 - Imagery
 Images of fresh organic food and natural landscapes are used throughout the site to promote a clean and healthy lifestyle.
 
-Wireframes were created to plan the layout and structure of the website before development.
+- A wireframe was created to plan the layout and structure of the website before development.![wire frame](assets/images/wire-frame.png)
 
 Technologies Used:                                   
 Languages                                           
@@ -126,13 +126,22 @@ The image was optimized using TinyPNG and light house reports were run to check 
 #### Links Testing
 All internal and external links were tested to ensure they direct to the correct page and open in new tabs.
 
-### Deployment
+### Clone Project
+To run website locally,
+- Clone the repository
+ ![clone](assets/images/clone.png)
+- Navigate to the project directory.
+- Open index.html in your browser to view the website locally.
+
+#### Deployment
 The site was deployed to GitHub pages.
  The steps to deploy are as follows:      
 - In the GitHub repository, navigate to the Settings tab     
 - From the source section drop-down menu, select the Master Branch      
 Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.              
 The live link can be found here - https://mildred-prog.github.io/Organic-Food/
+
+
 
 
 #### Bugs
@@ -145,7 +154,7 @@ The live link can be found here - https://mildred-prog.github.io/Organic-Food/
 | Google Maps showing causing trouble with validator  | Take out transferred info from link to only necessary code  |
 | Home page link stays highlighted when visiting another page | Remove active attribute on non-active pages |
 
-# Credits
+## Credits
 
 ## Media
 
