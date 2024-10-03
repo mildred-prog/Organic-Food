@@ -17,9 +17,9 @@ Our Organic Food Website is a single page website with three sections designed t
 ## User Goals
 
 #### First time Visitors Goals:        
-- As a visitor, I want to learn about the benefits of organic food so I can make better choices for my health.                                               
+- As a visitor, I want to learn about the benefits of organic food so I can make better choices for my health.                                           
 - As a visitor, I want to view a selection of organic products offered by the website to enable easy purchase of the available product.                                      
-- As a visitor, I want to contact the website owners for further inquiries on organic food     
+- As a visitor, I want to contact the website owners for further inquiries on organic food.     
 - As a visitor, I want to view the business location on a map (iframe) for easy guidiance to the office address.                         
 #### Returning Visitor Goals:                           
 - I want to re-access the product section to browse organic items.                                       
@@ -116,7 +116,7 @@ HTML: Passed validation with the W3C HTML Validator.
 CSS: Passed validation with the W3C CSS Validator.
 ![Css] https://jigsaw.w3.org/css-validator/validator                                    
 #### Browser Compactibility
-The website was tested on different browsers(chrome, firefox and safari) to ensure compactibility
+The website was tested on different browsers(chrome, firefox and safari) to ensure compactibility.
 
 #### Accessibility
 The website was tested using light house to ensure accessibility ,it achieved a good score for Accessibility, Best practises and SEO.![light house](<assets/images/light house.png>)
@@ -141,7 +141,7 @@ The site was deployed to GitHub pages.
 Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.              
 The live link can be found here - https://mildred-prog.github.io/Organic-Food/
 
-#### Bugs
+### Bugs
 
 |    Bug   |   Fix   |
 | ------------- | ------------- |
@@ -162,6 +162,7 @@ In order of appearance
 - Vegetable - https://www.pexels.com/photo/flat-lay-photography-of-variety-of-vegetables-1435904/
 - Milk image -https://www.pexels.com/photo/time-lapse-photography-of-strawberry-falling-on-milk-2064356/
 - Images of the organic food products - https://themewagon.github.io/foody2/product.html
+
 #### Code
 
 - The website - Done in co-ordination with the 'Love Running' project steps
