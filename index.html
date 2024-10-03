@@ -23,9 +23,10 @@
         <a href="index.html">
             <p id="logo">Organic Food</p>
         </a>
-        <input type="checkbox" id="nav-toggle" name="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label">
-            <i class="fa-solid fa-bars"></i></label>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle-input">
+        <label for="nav-toggle" class="nav-toggle-label" aria-label="Open navigation">
+            <i class="fa-solid fa-bars" aria-hidden="true"></i>
+        </label>
         <!--nav menu -->
         <nav>
             <ul id="menu">
@@ -52,7 +53,7 @@
         </section>
 
         <section id="page-text">
-            <h2 class="organic-heading">What is Organic food?</h2>
+            <h2 class="contrast organic-heading">What is Organic food?</h2>
             <p>Organic foods are agricultural products that are produced using methods that prioritize environmental
                 sustainability and the preservation of natural resources. These foods are grown without the use of
                 synthetic chemicals such as pesticides, herbicides, and fertilizers. Organic foods are grouped into
@@ -63,30 +64,30 @@
             <div id="organic">
                 <div class="organic-image">
                     <img src="assets/images/pexels-fruities.webp" alt="fruits">
-                    <h3>Organic Fruits</h3>
+                    <h3 class="contrast">Organic Fruits</h3>
                     <hr>
                     <p>Organic Fruits includes;pears, apples, bananas, strawberries and kiwis.</p>
                 </div>
 
                 <div class="organic-image">
                     <img src="assets/images/pexels-vegies.webp" alt="vegetables">
-                    <h3>Organic Vegetables</h3>
+                    <h3 class="contrast">Organic Vegetables</h3>
                     <hr>
                     <p>Organic Vegetables includes;cabbage, broccoli, bell peppers, tomatoes and asparagus.</p>
                 </div>
 
                 <div class="organic-image">
                     <img src="assets/images/pexels-milk.webp" alt="diary products">
-                    <h3>Diary Products</h3>
+                    <h3 class="contrast">Dairy Products</h3>
                     <hr>
-                    <p>Organic diary products such as milk and cheese come from animals that are not given antibiotics.
+                    <p>Organic dairy products such as milk and cheese come from animals that are not given antibiotics.
                     </p>
                 </div>
 
             </div>
 
             <div id="benefits">
-                <h3>Benefits and Importance of Eating Organic food</h3>
+                <h3 class="contrast">Benefits and Importance of Eating Organic food</h3>
                 <hr>
                 <p>There are numerous benefits and importance of consuming organic foods. One of the primary benefits is
                     that organic foods are believed to be more nutritious compared to conventionally grown foods.
@@ -104,49 +105,49 @@
         </section>
 
         <section id="organic-products">
-            <h2>Organic Food Products</h2>
+            <h2 class="contrast">Organic Food Products</h2>
             <p class="product-message">We also source and sell few organic products.</p>
             <div class="product-grid">
                 <!-- Product 1: Fresh tomatoes -->
                 <div class="product-item">
                     <img src="assets/images/product-tomatoes.webp" alt="Fresh tomatoes">
                     <h3 class="product-name">Fresh tomatoes</h3>
-                    <div class="price">$5.00 / kg</div>
+                    <div class="contrast price">$5.00 / kg</div>
                 </div>
 
                 <!-- Product 2: Strawberry -->
                 <div class="product-item">
                     <img src="assets/images/product-strawberry.webp" alt="Strawberry">
                     <h3 class="product-name">Strawberry</h3>
-                    <div class="price">$4.00 / kg</div>
+                    <div class="contrast price">$4.00 / kg</div>
                 </div>
 
                 <!-- Product 3: Cucumber -->
                 <div class="product-item">
                     <img src="assets/images/product-cucumber.webp" alt="Cucumber">
                     <h3 class="product-name">Cucumber</h3>
-                    <div class="price">$3.50 / kg</div>
+                    <div class="contrast price">$3.50 / kg</div>
                 </div>
 
                 <!-- Product 4: Potatoes -->
                 <div class="product-item">
                     <img src="assets/images/product-potato.webp" alt="Potatoes">
                     <h3 class="product-name">Potatoes</h3>
-                    <div class="price">$8.00 / pieces</div>
+                    <div class="contrast price">$8.00 / pieces</div>
                 </div>
 
                 <!-- Product 5: Banana -->
                 <div class="product-item">
                     <img src="assets/images/product-banana.webp" alt="Banana">
                     <h3 class="product-name">Banana</h3>
-                    <div class="price">$2.50 / kg</div>
+                    <div class="contrast price">$2.50 / kg</div>
                 </div>
 
                 <!-- Product 6: Bell peppers -->
                 <div class="product-item">
                     <img src="assets/images/product-bellp.webp" alt="Bell pepper">
                     <h3 class="product-name">Bell pepper</h3>
-                    <div class="price">$2.50 / kg</div>
+                    <div class="contrast price">$2.50 / kg</div>
                 </div>
             </div>
         </section>
@@ -203,8 +204,8 @@
                     <label for="message">Message</label>
                     <textarea id="message" placeholder="Leave a message here" rows="4" required></textarea>
                 </div>
-
-                <button type="submit">Send Message</button>
+                
+                <button class="button-contrast" type="submit">Send Message</button>
             </form>
         </div>
         <!-- map section -->
